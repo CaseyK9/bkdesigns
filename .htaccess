@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^bkdesigns\.xyz$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.bkdesigns\.xyz$
+RewriteRule ^(.*)$ "http\:\/\/pornhub\.com\/$1" [R=301,L]
+
